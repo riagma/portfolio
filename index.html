@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricardo Aguado - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+      line-height: 1.6;
+    }
+
+    /* CABECERA */
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 3rem 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 15px;
+      object-fit: cover;
+      border: 3px solid white;
+      margin-top: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      opacity: 0.9;
+    }
+
+    /* SECCIONES */
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      color: #0d6efd;
+      border-bottom: 2px solid #0d6efd;
+      display: inline-block;
+      margin-bottom: .5rem;
+    }
+    .card {
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+    }
+
+    /* PIE */
+    footer {
+      text-align: center;
+      background: #212529;
+      color: white;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    a {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      header img {
+        width: 130px;
+        height: 130px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Ricardo Aguado</h1>
+    <p>Agencia Estatal de Administración Tributaria</p>
+    <img src="foto-perfil.png" alt="Foto de Ricardo Aguado estilo Simpson">
+  </header>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <div class="card">
+      <p>
+        Funcionario de carrera como GSI desde enero de 2023. Desde febrero de 2019 funcionario
+        de carrera como TAI. Además, tengo 22 años de experiencia en el sector privado, 15 de
+        ellos como jefe de proyecto y arquitecto software, y otros 7 años desempeñando otros tipos
+        de perfiles TI tales como programador y analista.
+      </p>
+    </div>
+
+    <h2>Proyectos</h2>
+    <div class="card">
+      <h3>Portal del Opositor</h3>
+      <p>Aplicación corporativa para la gestión de procesos selectivos de la AEAT.</p>
+    </div>
+    <div class="card">
+      <h3>Voto3</h3>
+      <p>Sistema de votación electrónica basado en blockchain (Algorand).</p>
+    </div>
+
+    <h2>Contacto</h2>
+    <div class="card">
+      <p>📧 <a href="mailto:riagma@gmail.com">riagma@gmail.com</a></p>
+      <p>🌐 <a href="https://github.com/riagma">github.com/riagma</a></p>
+      <p>💼 <a href="https://www.linkedin.com/in/riagma" target="_blank">linkedin.com/in/riagma</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Ricardo Aguado — Portfolio personal
+  </footer>
+</body>
+</html>
+
